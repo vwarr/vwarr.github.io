@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Varun Warrier — Software Engineer</title>
+    <meta name="description" content="Portfolio and resume site for Varun Warrier — CS @ Georgia Tech, AI & Devices.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container hero">
+        <div class="hero-media">
+          <img src="assets/headshot-placeholder.svg" alt="Headshot placeholder for Varun Warrier" class="avatar" />
+        </div>
+        <div class="hero-content">
+          <h1 class="name">Varun Warrier</h1>
+          <p class="tagline">Software Engineer • B.S. Computer Science @ Georgia Tech (AI & Devices)</p>
+          <div class="contact">
+            <a href="mailto:vwarrier@gatech.edu" class="chip">vwarrier@gatech.edu</a>
+            <a href="tel:+14108310503" class="chip">(410) 831-0503</a>
+            <a href="https://www.linkedin.com/in/vwarr" class="chip" target="_blank" rel="noopener">LinkedIn</a>
+            <a href="https://github.com/vwarr" class="chip" target="_blank" rel="noopener">GitHub</a>
+            <a href="Varun Warrier.pdf" class="chip chip-accent" target="_blank" rel="noopener">Download Résumé</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="section">
+        <h2>Education</h2>
+        <div class="card">
+          <div class="edu-row">
+            <div>
+              <h3 class="institution">Georgia Institute of Technology</h3>
+              <p class="muted">Bachelor of Science in Computer Science — Concentrations: Artificial Intelligence & Devices</p>
+              <p class="muted">Minor: Computing & Business (Denning Technology & Management Scholar)</p>
+            </div>
+            <div class="edu-meta">
+              <span class="muted">Aug 2023 – May 2027</span>
+              <span class="badge">GPA 3.85</span>
+            </div>
+          </div>
+          <p class="muted small">Selected coursework: Data Structures & Algorithms, Systems & Networks, Machine Learning</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Experience</h2>
+        <article class="card experience">
+          <div class="exp-head">
+            <h3 class="company">HubSpot</h3>
+            <div class="exp-meta">
+              <span class="role">Software Engineering Intern</span>
+              <span class="muted">Cambridge, MA • May 2025 – Aug 2025</span>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li>Architected and launched backend functionality of an AI audio isolation service using Kafka-driven RPC endpoints, async workers, dynamic audio chunking, and real-time usage tracking and credit-spend limiting.</li>
+            <li>Automated file-lifecycle hygiene with cascading-deletion and orphan-prevention pipelines plus smarter thumbnail selection, trimming S3 storage by 4% and eliminating render-chunk errors in production.</li>
+            <li>Strengthened infrastructure reliability via structured retry logic, Dockerized FFmpeg workflows, broader acceptance-test coverage, and improved logging/error tracking.</li>
+          </ul>
+        </article>
+
+        <article class="card experience">
+          <div class="exp-head">
+            <h3 class="company">RoboJackets</h3>
+            <div class="exp-meta">
+              <span class="role">Software Engineer</span>
+              <span class="muted">Atlanta, GA • Jan 2025 – Present</span>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li>Led ROS2/C++ software development for Georgia Tech’s University Rover Competition team.</li>
+            <li>Developed rover control systems for teleoperated and autonomous modes using subsystems and sensors for 7+ metrics in driving, arm, and science operations.</li>
+            <li>Collaborated with 15+ team members in code reviews and simulation testing.</li>
+          </ul>
+        </article>
+
+        <article class="card experience">
+          <div class="exp-head">
+            <h3 class="company">Georgia Tech School of Computing Instruction</h3>
+            <div class="exp-meta">
+              <span class="role">Undergraduate Teaching Assistant</span>
+              <span class="muted">Atlanta, GA • Aug 2024 – Present</span>
+            </div>
+          </div>
+          <ul class="bullets">
+            <li>Led weekly lab sessions for 40+ students in digital logic, assembly, and C programming.</li>
+            <li>Supported a course with 700+ students by co-designing lab assignments, autograders, and solution manuals.</li>
+            <li>Provided assistance via online tickets and office hours to ensure timely course progress.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <img src="assets/project-placeholder.svg" alt="Thumbnail placeholder for CodeVerse" class="project-thumb" />
+            <div class="project-content">
+              <h3>CodeVerse</h3>
+              <p class="muted">Full-stack AI coding interview simulator with real-time voice interaction.</p>
+              <div class="chips">
+                <span class="chip">Flask</span>
+                <span class="chip">Monaco Editor</span>
+                <span class="chip">Mantine</span>
+                <span class="chip">Gemini API</span>
+              </div>
+              <ul class="bullets small">
+                <li>Simulated dynamic, voice-interactive interviews with bidirectional audio.</li>
+                <li>Low-latency speech input/output with real-time evaluation and adaptive questioning.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project-placeholder.svg" alt="Thumbnail placeholder for Rentify" class="project-thumb" />
+            <div class="project-content">
+              <h3>Rentify</h3>
+              <p class="muted">Peer-to-peer rental platform for item listings, bookings, and payments.</p>
+              <div class="chips">
+                <span class="chip">Django</span>
+                <span class="chip">PostgreSQL</span>
+                <span class="chip">MVC</span>
+              </div>
+              <ul class="bullets small">
+                <li>RESTful APIs for authentication, inventory, and transactions.</li>
+                <li>Robust validation, error handling, and relationship consistency.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="assets/project-placeholder.svg" alt="Thumbnail placeholder for Q-Wordle" class="project-thumb" />
+            <div class="project-content">
+              <h3>Q-Wordle</h3>
+              <p class="muted">Machine learning agents to solve Wordle.</p>
+              <div class="chips">
+                <span class="chip">Naive Bayes</span>
+                <span class="chip">MCTS</span>
+                <span class="chip">Q-learning</span>
+                <span class="chip">NumPy</span>
+              </div>
+              <ul class="bullets small">
+                <li>97% accuracy with Q-learning in 3.8 average guesses.</li>
+                <li>Custom reward functions and optimized training pipelines.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Technical Skills</h2>
+        <div class="card skills">
+          <div>
+            <h4>Languages</h4>
+            <div class="chips">
+              <span class="chip">C</span>
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">SQL</span>
+              <span class="chip">Swift</span>
+              <span class="chip">SwiftUI</span>
+              <span class="chip">CircuitPython</span>
+              <span class="chip">LC-3 Assembly</span>
+            </div>
+          </div>
+          <div>
+            <h4>Frameworks & Libraries</h4>
+            <div class="chips">
+              <span class="chip">gRPC</span>
+              <span class="chip">OpenCV</span>
+              <span class="chip">Django</span>
+              <span class="chip">ROS</span>
+              <span class="chip">Dropwizard</span>
+              <span class="chip">NumPy</span>
+              <span class="chip">Matplotlib</span>
+              <span class="chip">Gemini</span>
+              <span class="chip">Javalin</span>
+              <span class="chip">JavaFX</span>
+            </div>
+          </div>
+          <div>
+            <h4>Tools</h4>
+            <div class="chips">
+              <span class="chip">Git</span>
+              <span class="chip">S3</span>
+              <span class="chip">Docker</span>
+              <span class="chip">Kafka</span>
+              <span class="chip">Amazon SQS</span>
+              <span class="chip">FFmpeg</span>
+              <span class="chip">MySQL</span>
+              <span class="chip">Kubernetes</span>
+              <span class="chip">Jenkins</span>
+              <span class="chip">Grafana</span>
+              <span class="chip">cURL</span>
+              <span class="chip">Postman</span>
+              <span class="chip">GDB</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p class="muted small">© <span id="year"></span> Varun Warrier</p>
+      </div>
+      <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+      </script>
+    </footer>
+  </body>
+  </html>
+
+
